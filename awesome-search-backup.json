@@ -1,0 +1,39 @@
+{
+    "data": {
+      "wp": {
+        "Posts": [
+          {
+            "table": "posts",
+            "column": "*"
+          }
+        ]
+      },
+      "plugins": {
+        "Give - Donation Plugin": [
+          {
+            "table": "give_donormeta",
+            "column": [
+              "meta_key",
+              "meta_value"
+            ]
+          },
+          {
+            "table": "give_donors",
+            "column": "name"
+          }
+        ],
+        "Gamipress": [
+          {
+            "table": "gamipress_logs_meta",
+            "column": "meta_key"
+          }
+        ],
+        "Test": [
+          {
+            "table": "gamipress_logs_meta",
+            "column": "meta_key"
+          }
+        ]
+      }
+    }
+  }
